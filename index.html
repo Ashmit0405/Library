@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login with College Email</h1>
+        <form action="loginpage.php" method="post" id="myForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="email">Email<span>*</span></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Number">
+            </div>
+            <div class="form-group">
+                <label for="room">Room Number <span>*</span></label>
+                <input type="text" id="room" name="room" required placeholder="Room">
+            </div>
+            <div class="form-group">
+                <label for="description">Post</label>
+                <textarea id="description" name="description" placeholder="Description"></textarea>
+            </div>
+            <button type="submit" class="sub">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
