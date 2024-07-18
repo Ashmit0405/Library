@@ -1,5 +1,5 @@
 # College Project
-Technologies used:-
-Frontend: Html,Css,Js,php
-Backend: Js
-Database: Sql
+<p>Technologies used:-</p>
+<p>Frontend: Html,Css,Js,php</p>
+<p>Backend: Js,php</p>
+<p>Database: Sql</p>
